@@ -1,4 +1,4 @@
-package dev.vishsali.neetcode.practice.arraysAndHashing;
+package dev.vishsali.exponent.sdecodingquestions.array;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -9,14 +9,16 @@ import static org.junit.jupiter.api.Assertions.*;
 
 
 @ExtendWith(MockitoExtension.class)
-class TwoIntegerSumTest {
+class MergeIntervalsTest {
     @InjectMocks
-    private TwoIntegerSum test;
+    private MergeIntervals test;
 
     @Test
     void test1(){
-        assertArrayEquals(test.twoSum(new int[] {2, 7, 11, 15}, 7), new int[]{0,1});
+        assertArrayEquals(new int[][]{{1,6}, {8,10}, {15,18}},
+                test.mergeIntervals(new int[][]{{1,3}, {2,6}, {8,10}, {15,18}}));
 //        assertArrayEquals(test.twoSum(new int[] {1, 0}, Integer.MAX_VALUE), new int[]{-1,-1});
 //        assertArrayEquals(test.twoSum(new int[] {Integer.MAX_VALUE, 1}, 1), new int[]{-1,-1});
     }
+
 }
