@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class CopyaSpiralMatrix {
-    static int[] spiralCopy(int[][] inputMatrix) {
+    public int[] spiralCopy(int[][] inputMatrix) {
         // your code goes here
         List<Integer> res = new ArrayList<>();
         int rows = inputMatrix.length, cols = inputMatrix[0].length;
