@@ -1,5 +1,6 @@
 package dev.vishsali.neetcode.practice.arraysAndHashing;
 
+import dev.vishsali.neetcode.practice.blind75.arraysAndHashing.IsAnagram;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;

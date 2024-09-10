@@ -1,4 +1,4 @@
-package dev.vishsali.neetcode.practice.arraysAndHashing;
+package dev.vishsali.neetcode.practice.blind75.arraysAndHashing;
 
 import java.util.HashMap;
 import java.util.Map;
