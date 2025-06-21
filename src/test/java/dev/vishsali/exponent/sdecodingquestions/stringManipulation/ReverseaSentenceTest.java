@@ -15,12 +15,12 @@ class ReverseaSentenceTest {
 
     @Test
     void test1() {
-/*        assertArrayEquals(new char[]{'p', 'r', 'a', 'c', 't', 'i', 'c', 'e', ' ',
+        assertArrayEquals(new char[]{'p', 'r', 'a', 'c', 't', 'i', 'c', 'e', ' ',
                         'm', 'a', 'k', 'e', 's', ' ',
                         'p', 'e', 'r', 'f', 'e', 'c', 't'}
                 , test.reverseWords(new char[]{'p', 'e', 'r', 'f', 'e', 'c', 't', ' ',
                         'm', 'a', 'k', 'e', 's', ' ',
-                        'p', 'r', 'a', 'c', 't', 'i', 'c', 'e'}));*/
+                        'p', 'r', 'a', 'c', 't', 'i', 'c', 'e'}));
         assertArrayEquals(new char[]{' ', ' '}
                 , test.reverseWords(new char[]{ ' ', ' '}));
     }

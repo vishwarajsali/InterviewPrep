@@ -14,7 +14,7 @@ class SentenceSimilarityTest {
 
     @Test
     void test1() {
-       /* assertFalse( test.areSentencesSimilar(
+        assertTrue( test.areSentencesSimilar(
                 new String[] {"i", "really", "love", "leetcode", "and", "apples"},
                 new String[]{"i", "so", "like", "codesignal", "and", "oranges"},
                 new String[][] {
@@ -32,13 +32,26 @@ class SentenceSimilarityTest {
                 new String[][] {
                         {"code", "program"}
                 }
-        ));*/
+        ));
         assertFalse( test.areSentencesSimilar(
                 new String[] {"i", "enjoy", "coding", "very", "much"},
                 new String[]{"i", "love", "programming", "so", "much"},
                 new String[][] {
                         {"enjoy", "love"},
                         {"very", "so"}
+                }
+        ));
+
+        assertTrue( test.areSentencesSimilar(
+                new String[] {"I", "really", "love", "leetcode", "and", "apples"},
+                new String[]{"I", "so", "like", "codesignal", "and", "oranges"},
+                new String[][] {
+                        {"very", "so"},
+                        {"love", "adore"},
+                        {"really", "very"},
+                        {"leetcode", "codesignal"},
+                        {"apples", "oranges"},
+                        {"like", "adore"}
                 }
         ));
     }

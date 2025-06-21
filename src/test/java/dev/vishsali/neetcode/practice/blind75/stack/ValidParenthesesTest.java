@@ -1,6 +1,5 @@
-package dev.vishsali.exponent.sdecodingquestions.graphAndTrees;
+package dev.vishsali.neetcode.practice.blind75.stack;
 
-import dev.vishsali.exponent.util.tree.Node;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
@@ -8,14 +7,15 @@ import org.mockito.junit.jupiter.MockitoExtension;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+
 @ExtendWith(MockitoExtension.class)
-class BalancedTreeTest {
+class ValidParenthesesTest {
     @InjectMocks
-    private BalancedTree test;
+    private ValidParentheses test;
 
     @Test
     void test1() {
-        assertTrue(test.isBalanced(new Node("a", new Node("b", new Node("d"), new Node("e")), new Node("c", null, new Node("f")))));
-
+        assertTrue(test.isValid("({[]()})"));
+        assertFalse(test.isValid("({"));
     }
 }

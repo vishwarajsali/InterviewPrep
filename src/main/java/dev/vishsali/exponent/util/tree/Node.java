@@ -1,17 +1,17 @@
 package dev.vishsali.exponent.util.tree;
 
-public class TreeNode {
+public class Node {
     public String value;
-    public TreeNode left;
-    public TreeNode right;
+    public Node left;
+    public Node right;
 
-    public TreeNode(String value) {
+    public Node(String value) {
         this.value = value;
         this.left = null;
         this.right = null;
     }
 
-    public TreeNode(String value, TreeNode left, TreeNode right) {
+    public Node(String value, Node left, Node right) {
         this.value = value;
         this.left = left;
         this.right = right;

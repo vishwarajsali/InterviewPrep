@@ -2,22 +2,20 @@ package dev.vishsali.exponent.sdecodingquestions.graphAndTrees;
 
 import dev.vishsali.exponent.util.tree.Node;
 
-public class BalancedTree {
+public class DiameterofaTree {
 
-    public boolean isBalanced(Node node) {
+    public int diameterOfTree(Node root) {
         // your code goes here
-        if (node == null) return true;
+        if(root == null) return 0;
 
-        int leftHeight = getHeight(node.left);
-        int rightHeight = getHeight(node.right);
+        int leftHeight = getHeight(root.left);
+        int rightHeight = getHeight(root.right);
 
-        int heightDiff = Math.abs(leftHeight - rightHeight);
+        int height = leftHeight + rightHeight;
 
-        if (heightDiff > 1) return false;
 
-        return isBalanced(node.left) && isBalanced(node.right);
+        return height;
     }
-
 
     private int getHeight(Node node) {
         if (node == null) return 0;

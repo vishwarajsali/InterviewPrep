@@ -1,7 +1,9 @@
 package dev.vishsali.neetcode.practice.blind75.arraysAndHashing;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
+import java.util.Set;
 
 public class ContainsDuplicate {
 
@@ -19,12 +21,23 @@ public class ContainsDuplicate {
 
     Output: false
     */
-    public boolean hasDuplicate(int[] nums) {
+    public boolean hasDuplicate1(int[] nums) {
         Map<Integer, Integer> map = new HashMap<>();
 
         for(int i : nums){
             if(map.containsKey(i)) return true;
             map.put(i, map.getOrDefault(i, 1)+1);
+        }
+
+        return false;
+    }
+
+    public boolean hasDuplicate(int[] nums) {
+
+        Set<Integer> set = new HashSet<>();
+        for(int i : nums){
+            if(set.contains(i)) return true;
+            set.add(i);
         }
 
         return false;
