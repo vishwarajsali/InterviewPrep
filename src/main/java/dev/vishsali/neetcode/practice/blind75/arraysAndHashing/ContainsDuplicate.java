@@ -1,9 +1,6 @@
 package dev.vishsali.neetcode.practice.blind75.arraysAndHashing;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class ContainsDuplicate {
 
@@ -21,23 +18,86 @@ public class ContainsDuplicate {
 
     Output: false
     */
-    public boolean hasDuplicate1(int[] nums) {
-        Map<Integer, Integer> map = new HashMap<>();
 
-        for(int i : nums){
-            if(map.containsKey(i)) return true;
-            map.put(i, map.getOrDefault(i, 1)+1);
+
+    /*
+     * sorting and lopping O(log N)
+     *
+     * Space = O(1)
+     * Time = O(log N)
+     *
+     * */
+    public boolean solution_1(int[] nums) {
+        for (int i = 0; i < nums.length - 1; i++) {
+
+            for (int j = i + 1; j < nums.length; j++) {
+                if (nums[i] == nums[j]) return true;
+            }
         }
 
         return false;
     }
 
-    public boolean hasDuplicate(int[] nums) {
+
+    /*
+     * sorting and lopping O(log N)
+     *
+     * Space = O(1)
+     * Time = O(log N)
+     *
+     * */
+    public boolean solution_2(int[] nums) {
+        Arrays.sort(nums);
+
+        for (int i = 0; i < nums.length - 1; i++) {
+
+            if (nums[i] == nums[i + 1]) return true;
+        }
+
+
+        return false;
+    }
+
+    /*
+     * Map
+     *
+     * Space = O(N)
+     * Time = O( N)
+     *
+     * */
+    public boolean solution_3(int[] nums) {
+
+        Map<Integer, Integer> map = new HashMap<>();
+
+        for(int num : nums){
+
+            if(map.containsKey(num)) return true;
+
+            map.put(num, map.getOrDefault(num, 0)+1);
+        }
+
+        return false;
+    }
+
+
+
+    /*
+     * Set
+     *
+     * Space = O(N)
+     * Time = O( N)
+     *
+     * */
+    public boolean solution_4(int[] nums) {
 
         Set<Integer> set = new HashSet<>();
-        for(int i : nums){
-            if(set.contains(i)) return true;
-            set.add(i);
+
+        for(int num : nums){
+
+            if(set.contains(num)) return true;
+
+            set.add(num);
+
         }
 
         return false;

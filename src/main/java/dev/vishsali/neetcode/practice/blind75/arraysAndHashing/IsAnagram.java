@@ -1,9 +1,7 @@
 package dev.vishsali.neetcode.practice.blind75.arraysAndHashing;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.lang.reflect.Array;
+import java.util.*;
 
 public class IsAnagram {
 
@@ -27,48 +25,89 @@ public class IsAnagram {
 
     s and t consist of lowercase English letters.*/
 
-    public boolean isAnagram1(String s, String t) {
-        int[] sArr = new int[26];
-        for(char c : s.toCharArray()){
 
-            int a = c - 'a';
-            sArr[a]++;
-        }
+    /*
+     * Array
+     *
+     * Space = O(N)
+     * Time = O(N)
+     *
+     * */
+    public boolean solution_1(String s, String t) {
+
+        if(s.length() != t.length()) return false;
+
+        int[] sArr = new int[26];
+
+        for(char c : s.toCharArray()) sArr[c - 'a']++;
+
 
         for(char c : t.toCharArray()){
-            int a = c - 'a';
-            sArr[a]--;
+            sArr[c - 'a']--;
         }
 
-        for(int i : sArr){
-            if(i != 0) return false;
+
+        for(int n : sArr) {
+            if(n != 0) return false;
         }
 
         return true;
-
     }
 
-    public boolean isAnagram(String s, String t) {
+    /*
+     * Sort
+     *
+     * Space = O(N)
+     * Time = O(N)
+     *
+     * */
+    public boolean solution_2(String s, String t) {
+
+        if(s.length() != t.length()) return false;
+
+        char[] sChar = s.toCharArray();
+        Arrays.sort(sChar);
+
+        s = Arrays.toString(sChar);
+
+        char[] tChar = t.toCharArray();
+        Arrays.sort(tChar);
+
+        t = Arrays.toString(tChar);
+
+        if(!s.equals(t)) return  false;
+
+        return true;
+    }
+
+
+    /*
+     * Map
+     *
+     * Space = O(N)
+     * Time = O(N)
+     *
+     * */
+    public boolean solution_3(String s, String t) {
+
+        if(s.length() != t.length()) return false;
+
         Map<Character, Integer> map = new HashMap<>();
 
+        for(char c : s.toCharArray()) map.put(c, map.getOrDefault(c, 0)+1);
 
-        for(Character c : s.toCharArray()){
-            map.put(c, map.getOrDefault(c, 0)+1);
-        }
+        for(char c : t.toCharArray()){
+            if(!map.containsKey(c)) return false;
 
-        for(Character c : t.toCharArray()){
-            if(map.containsKey(c)) map.put(c, map.get(c)-1);
-            else return false;
+            map.put(c, map.getOrDefault(c, 0) -1);
 
             if(map.get(c) < 0) return false;
         }
 
-        for(int i : map.values()){
-            if(i > 0 ) return false;
-        }
 
 
         return true;
-
     }
+
+
 }

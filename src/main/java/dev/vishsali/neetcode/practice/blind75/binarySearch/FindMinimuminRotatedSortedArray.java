@@ -23,4 +23,16 @@ public class FindMinimuminRotatedSortedArray {
         return nums[left];
 
     }
+
+
+    public int findMin_1(int[] nums) {
+
+//        find smallest number in the array
+
+        int min = Integer.MAX_VALUE;
+        for(int i : nums){
+            min = Math.min(min, i);
+        }
+        return min;
+    }
 }
