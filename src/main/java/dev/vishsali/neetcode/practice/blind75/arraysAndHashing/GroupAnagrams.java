@@ -23,4 +23,20 @@ public class GroupAnagrams {
 
         return map.values().stream().toList();
     }
+
+    public List<List<String>> solution_1(String[] strs) {
+
+        Map<String, List<String>> map = new HashMap<>();
+
+        for(String s : strs){
+            char[] chars = s.toCharArray();
+            Arrays.sort(chars);
+            String sortedStr = Arrays.toString(chars);
+            map.putIfAbsent(sortedStr, new ArrayList<>());
+            map.get(sortedStr).add(s);
+        }
+
+
+        return map.values().stream().toList();
+    }
 }
