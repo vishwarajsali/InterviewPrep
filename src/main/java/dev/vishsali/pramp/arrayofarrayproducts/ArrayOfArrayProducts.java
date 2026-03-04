@@ -1,8 +1,10 @@
+package dev.vishsali.pramp.arrayofarrayproducts;
+
 import java.io.*;
 import java.util.*;
 
-class Solution {
-  
+class ArrayOfArrayProducts {
+
   static int[] arrayOfArrayProducts1(int[] arr) {
     
     if(arr == null || arr.length <= 1) return new int[0];

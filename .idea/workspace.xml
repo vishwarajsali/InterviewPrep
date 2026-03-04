@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e2a2f921-313c-4299-b331-ecc85bfcbe69" name="Changes" comment="Oct 1 2024">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/vishsali/exponent/sdecodingquestions/array/ThreeSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/vishsali/exponent/sdecodingquestions/dynamicProgramming/FibonacciNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/vishsali/exponent/sdecodingquestions/dynamicProgramming/SalesPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/vishsali/neetcode/courses/dsaForBeginner/arrays/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/vishsali/neetcode/courses/dsaForBeginner/arrays/RemoveElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/vishsali/neetcode/courses/dsaForBeginner/binarySearch/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/vishsali/neetcode/courses/dsaForBeginner/binarySearch/FirstBadVersion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/vishsali/neetcode/courses/dsaForBeginner/binarySearch/GuessNumberHigherOrLower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/vishsali/neetcode/courses/dsaForBeginner/binarySearch/KokoEatingBananas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/vishsali/neetcode/courses/dsaForBeginner/binarySearch/Searcha2DMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/vishsali/neetcode/courses/dsaForBeginner/trees/BSTInsertandRemove/InsertintoaBinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/vishsali/neetcode/practice/blind75/slidingWindow/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/vishsali/neetcode/practice/blind75/slidingWindow/bestTimetoBuyandSellStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/vishsali/neetcode/practice/blind75/twoPointers/ContainerWithMostWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/vishsali/util/list/tree/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dev/vishsali/neetcode/courses/dsaForBeginner/trees/BSTInsertandRemove/InsertintoaBinarySearchTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/vishsali/exponent/sdecodingquestions/array/MoveZerostoEndofArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/vishsali/exponent/sdecodingquestions/array/MoveZerostoEndofArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/vishsali/neetcode/practice/blind75/arraysAndHashing/EncodeandDecodeStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/vishsali/neetcode/practice/blind75/arraysAndHashing/EncodeandDecodeStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/vishsali/neetcode/practice/blind75/arraysAndHashing/LongestConsecutiveSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/vishsali/neetcode/practice/blind75/arraysAndHashing/LongestConsecutiveSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/vishsali/neetcode/practice/blind75/arraysAndHashing/TopKFrequentElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/vishsali/neetcode/practice/blind75/arraysAndHashing/TopKFrequentElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/vishsali/neetcode/practice/blind75/twoPointers/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/vishsali/neetcode/practice/blind75/twoPointers/ThreeSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/vishsali/neetcode/practice/blind75/twoPointers/ValidPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/vishsali/neetcode/practice/blind75/twoPointers/ValidPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/vishsali/pramp/Array Index &amp; Element Equality/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/vishsali/pramp/Array Index &amp; Element Equality/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/vishsali/pramp/Array of Array Products/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/vishsali/pramp/Array of Array Products/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/vishsali/pramp/Award Budget Cuts/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/vishsali/pramp/Award Budget Cuts/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/vishsali/pramp/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/vishsali/pramp/arrayIndexAndElementEquality/ArrayIndexAndElementEquality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/vishsali/pramp/arrayIndexAndElementEquality/ArrayIndexAndElementEquality.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/vishsali/pramp/arrayIndexAndElementEquality/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/vishsali/pramp/arrayIndexAndElementEquality/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/vishsali/util/list/singlyListNode/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/vishsali/util/list/singlyListNode/ListNode.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/Users/vish/Documents/Development/Java/InterviewPrep/InterviewPrep" value="2klRVTxeEl7q6zfhe8QE79utLJd" />
+    </persistenceIdMap>
+  </component>
+  <component name="CopilotUserSelectedModel">
+    <selectedModels>
+      <entry key="chat-panel" value="Auto" />
+      <entry key="agent-panel" value="Auto" />
+    </selectedModels>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;vishwarajsali&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/vishwarajsali/InterviewPrep.git&quot;,
+    &quot;accountId&quot;: &quot;353880ff-069f-4b34-96fa-b58c04240733&quot;
+  }
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2klRVTxeEl7q6zfhe8QE79utLJd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.ContainsDuplicateTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContiguousSubarraySumTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ContiguousSubarraySumTest.test1.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.CopyaSpiralMatrixTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CopyaSpiralMatrixTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DecryptMessageTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DegreesofFriendshipTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FindMinimuminRotatedSortedArrayTest.test1.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.FindTargetinRotatedSortedArrayTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.IsAnagramTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.KMessedArraySortTest.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.LongestConsecutiveSequenceTest.test1.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.LongestSubstringWithoutRepeatTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MaximumSubarraySumTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MergeIntervalsTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MergeTwoSortedLinkedListsTest.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.MergeTwoSortedLinkedListsTest.test1.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.MinimumWindowSubstringTest.test1.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.MostCommonWordsTest.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.NumberFinderTest.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.NumberFinderTest.test1.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.NumberofIslandsTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductofArrayExceptSelfTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RemoveDuplicatesinStringTest.test1.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.ReorderLinkedListTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReorderLinkedListTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReverseLinkedListTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReverseLinkedListTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReverseaSentenceTest.test1.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.RotationsinCircularlySortedArrayTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RotationsinCircularlySortedArrayTest.test1.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.SentenceSimilarityTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SerializeandDeserializeStringsTest.test1.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TwoIntegerSumTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TwoSumTest.test1.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.ValidPalindromeTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ValidPalindromeTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ValidParenthesesTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ValidParenthesesTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ValidateIPAddressTest.test1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/vish/Documents/Development/Java/InterviewPrep/InterviewPrep/src/test/java/org/example&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/org/example" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/example" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="dev.vishsali.neetcode.practice.blind75.twoPointers" />
+      <recent name="dev.vishsali.neetcode.practice.blind75.arraysAndHashing" />
+      <recent name="dev.vishsali.neetcode.practice.blind75.linkedList" />
+      <recent name="dev.vishsali.neetcode.practice.blind75.stack" />
+      <recent name="dev.vishsali.exponent.sdecodingquestions.graphAndTrees" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dev.vishsali.neetcode.courses.dsaForBeginner.binarySearch" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ValidPalindromeTest.test1">
+    <configuration name="LongestConsecutiveSequenceTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="InterviewPrep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.vishsali.neetcode.practice.blind75.arraysAndHashing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.vishsali.neetcode.practice.blind75.arraysAndHashing" />
+      <option name="MAIN_CLASS_NAME" value="dev.vishsali.neetcode.practice.blind75.arraysAndHashing.LongestConsecutiveSequenceTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReorderLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="InterviewPrep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.vishsali.neetcode.practice.blind75.linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.vishsali.neetcode.practice.blind75.linkedList" />
+      <option name="MAIN_CLASS_NAME" value="dev.vishsali.neetcode.practice.blind75.linkedList.ReorderLinkedListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReorderLinkedListTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="InterviewPrep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.vishsali.neetcode.practice.blind75.linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.vishsali.neetcode.practice.blind75.linkedList" />
+      <option name="MAIN_CLASS_NAME" value="dev.vishsali.neetcode.practice.blind75.linkedList.ReorderLinkedListTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="InterviewPrep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.vishsali.neetcode.practice.blind75.linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.vishsali.neetcode.practice.blind75.linkedList" />
+      <option name="MAIN_CLASS_NAME" value="dev.vishsali.neetcode.practice.blind75.linkedList.ReverseLinkedListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidPalindromeTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="InterviewPrep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.vishsali.neetcode.practice.blind75.twoPointers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dev.vishsali.neetcode.practice.blind75.twoPointers" />
+      <option name="MAIN_CLASS_NAME" value="dev.vishsali.neetcode.practice.blind75.twoPointers.ValidPalindromeTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ValidPalindromeTest.test1" />
+        <item itemvalue="JUnit.ReverseLinkedListTest" />
+        <item itemvalue="JUnit.ReorderLinkedListTest.test1" />
+        <item itemvalue="JUnit.ReorderLinkedListTest" />
+        <item itemvalue="JUnit.LongestConsecutiveSequenceTest.test1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e2a2f921-313c-4299-b331-ecc85bfcbe69" name="Changes" comment="" />
+      <created>1723856200727</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723856200727</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Aug 16">
+      <option name="closed" value="true" />
+      <created>1723864360035</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723864360035</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Aug 16">
+      <option name="closed" value="true" />
+      <created>1723864645440</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723864645440</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Aug 17">
+      <option name="closed" value="true" />
+      <created>1723902174622</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723902174622</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Aug 18">
+      <option name="closed" value="true" />
+      <created>1724027233569</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724027233569</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Aug 28">
+      <option name="closed" value="true" />
+      <created>1724887572333</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724887572333</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Aug 29">
+      <option name="closed" value="true" />
+      <created>1724967771667</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724967771667</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Sept 4">
+      <option name="closed" value="true" />
+      <created>1725452772773</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1725452772773</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Sept 10">
+      <option name="closed" value="true" />
+      <created>1725973941766</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1725973941766</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Sept 25">
+      <option name="closed" value="true" />
+      <created>1727266618053</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1727266618053</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Oct 1 2024">
+      <option name="closed" value="true" />
+      <created>1727825883082</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1727825883082</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Oct 1 2024">
+      <option name="closed" value="true" />
+      <created>1727826170926</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1727826170926</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Aug 16" />
+    <MESSAGE value="Aug 17" />
+    <MESSAGE value="Aug 18" />
+    <MESSAGE value="Aug 28" />
+    <MESSAGE value="Aug 29" />
+    <MESSAGE value="Sept 4" />
+    <MESSAGE value="Sept 10" />
+    <MESSAGE value="Sept 25" />
+    <MESSAGE value="Oct 1 2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Oct 1 2024" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dev/vishsali/exponent/sdecodingquestions/array/TwoSum.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dev/vishsali/exponent/sdecodingquestions/array/MergeIntervals.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dev/vishsali/exponent/sdecodingquestions/array/ContiguousSubarraySum.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dev/vishsali/exponent/sdecodingquestions/searchingandsorting/NumberFinder.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/dev/vishsali/exponent/sdecodingquestions/searchingandsorting/NumberFinderTest.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dev/vishsali/exponent/sdecodingquestions/stringManipulation/MostCommonWords.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dev/vishsali/exponent/sdecodingquestions/stringManipulation/ReverseaSentence.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dev/vishsali/exponent/sdecodingquestions/stringManipulation/ValidParentheses.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/dev/vishsali/exponent/sdecodingquestions/stringManipulation/ValidParenthesesTest.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dev/vishsali/neetcode/practice/blind75/binarySearch/FindMinimuminRotatedSortedArray.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dev/vishsali/exponent/sdecodingquestions/stringManipulation/DecryptMessage.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dev/vishsali/exponent/sdecodingquestions/searchingandsorting/RotationsinCircularlySortedArray.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dev/vishsali/exponent/sdecodingquestions/searchingandsorting/RotationsinCircularlySortedArray.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dev/vishsali/exponent/sdecodingquestions/stringManipulation/SerializeandDeserializeStrings.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dev/vishsali/exponent/sdecodingquestions/stringManipulation/SerializeandDeserializeStrings.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dev/vishsali/exponent/sdecodingquestions/stringManipulation/LongestSubstringWithoutRepeat.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dev/vishsali/exponent/sdecodingquestions/graphAndTrees/SentenceSimilarity.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dev/vishsali/neetcode/practice/blind75/linkedList/MergeTwoSortedLinkedLists.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dev/vishsali/neetcode/practice/blind75/arraysAndHashing/LongestConsecutiveSequence.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dev/vishsali/neetcode/practice/blind75/twoPointers/ValidPalindrome.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/dev/vishsali/exponent/sdecodingquestions/array/ContiguousSubarraySumTest.java</url>
+          <line>15</line>
+          <properties class="dev.vishsali.exponent.sdecodingquestions.array.ContiguousSubarraySumTest" method="test1">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/test/java/dev/vishsali/exponent/sdecodingquestions/stringManipulation/SerializeandDeserializeStringsTest.java</url>
+          <line>15</line>
+          <properties field="test" class="dev.vishsali.exponent.sdecodingquestions.stringManipulation.SerializeandDeserializeStringsTest" />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>

@@ -13,5 +13,5 @@ Constraints:
 
 * [time limit] 5000ms
 * [input] array.integer arr
-    * 1 ≤ arr.length ≤ 100
+  * 1 ≤ arr.length ≤ 100
 * [output] integer

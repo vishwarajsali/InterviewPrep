@@ -16,4 +16,22 @@ public class MoveZerostoEndofArray {
 
         return arr;
     }
+
+    public int[] solution_1(int[] arr) {
+        // your code goes here
+
+        int n = arr.length,  slow = 0;
+
+        for(int i = 0; i< n; i++){
+            if(arr[i] != 0){
+                int temp = arr[i];
+                arr[i] = arr[slow];
+                arr[slow] = temp;
+
+                slow++;
+            }
+        }
+
+        return arr;
+    }
 }

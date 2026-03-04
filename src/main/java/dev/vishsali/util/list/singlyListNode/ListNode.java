@@ -1,13 +1,12 @@
 package dev.vishsali.util.list.singlyListNode;
 
 
-import lombok.extern.java.Log;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.ArrayList;
 import java.util.List;
 
-@Log
+@Slf4j
 public class ListNode {
 
     public int val;
@@ -34,7 +33,7 @@ public class ListNode {
             curr = curr.next;
         }
 
-        log.info("Singly Linked List to List: {}" + list);
+        log.info("Singly Linked List to List: {}", list);
     }
 
     public static ListNode convert_List_SinglyList(List<Integer> list){

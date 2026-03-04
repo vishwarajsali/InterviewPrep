@@ -34,4 +34,33 @@ class Codec {
         return decodeList;
 
     }
+
+
+
+    public String encode_1(List<String> strs) {
+        StringBuilder sb = new StringBuilder( );
+
+
+        for(String s : strs){
+
+            sb.append(s.length()).append('/').append(s);
+        }
+        return sb.toString();
+    }
+
+    public List<String> decode_1(String str) {
+        List<String> res = new ArrayList<>();
+        for(int i = 0; i< str.length();){
+            int index = str.indexOf('/', i);
+
+            int size = Integer.valueOf(str.substring(i, index));
+            res.add(str.substring(index+1, index+size+1));
+
+            i = index + size + 1;
+
+
+        }
+
+        return res;
+    }
 }
