@@ -1,13 +1,14 @@
 package dev.vishsali.util.list.singlyListNode;
 
 
-import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.ArrayList;
 import java.util.List;
 
-@Slf4j
 public class ListNode {
+    private static final Logger log = LoggerFactory.getLogger(ListNode.class);
 
     public int val;
     public ListNode next;
